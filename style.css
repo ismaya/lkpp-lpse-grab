@@ -1,0 +1,79 @@
+body {
+    font: normal 14px arial;
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #00a;
+}
+a:hover {
+    text-decoration: underline;
+    color: #a00;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+#progress {
+    background: #aaa;
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+    position: relative;
+    margin-bottom: 20px;
+}
+#progress div {
+    background: #a00;
+    width: 0%;
+    height: 30px;
+}
+#progress span {
+    font-size: 12px;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+}
+
+#message {margin-bottom: 5px;}
+#message p {
+    float: left;
+    margin: 0;
+}
+#message img {
+    display: none;
+    float: left;
+    margin-left: 10px;
+}
+
+#action {margin-bottom: 20px;}
+
+#data {}
+#data table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#data table th {
+    font-weight: normal;
+    text-align: left;
+    background: #eee;
+    border: 1px solid #aaa;
+    padding: 10px 5px;
+}
+#data table td {
+    border: 1px solid #aaa;
+    padding: 10px 5px;
+}
+#data table th:first-child {width: 10px;}
