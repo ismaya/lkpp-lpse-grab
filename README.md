@@ -10,8 +10,9 @@ Mengambil data pemenang lelang dari aplikasi LPSE dari LKPP.
 ## Instalasi
 * Extrak lkpp-lpse-grab-master.zip ke Direktori root, misalkan C:\www\lpse.
 * Periksa file init.php dan ubah konfigurasi seperlunya.
+* Buat Virtual Host
 
-### Khusus untuk pengguna XAMPP/Windows
+Khusus untuk pengguna XAMPP/Windows
 * Buka file `c:\WINDOWS\system32\drivers\etc\hosts` dan tambahkan kode berikut di baris paling bawah.
 ```127.0.0.127 lpse```
 
@@ -28,6 +29,10 @@ Mengambil data pemenang lelang dari aplikasi LPSE dari LKPP.
 </VirtualHost>
 ```
 * Buka Control Panel XAMPP dan restart Apache (Stop lalu Start)
+
+## Menjalankan
+
+Menggunakan browser, browse ke http://lpse/
 
 ## Catatan
 Aplikasi ini memiliki lisensi bebas yang berarti:
