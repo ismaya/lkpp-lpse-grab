@@ -7,4 +7,6 @@ $config['statuses'] = array(
     'kontrak' => 'Penandatanganan Kontrak',
 );
 
+$config['use_curl'] = false;
+
 session_start();

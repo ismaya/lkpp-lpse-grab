@@ -126,7 +126,6 @@ function get_winners(ids)
     .error(function(){
         stop_progress();
         show_error();
-        alert('asu');
     })
     .success(function(response){
         if (response.ids == null || response.index == null || response.winners == null) show_error();
