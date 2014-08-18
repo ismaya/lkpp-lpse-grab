@@ -209,8 +209,12 @@ function stop_progress()
 }
 
 
-function show_error()
+function show_error(msg)
 {
-    $('#message_text').html('<p>Error!</p>');
+    if (msg == null) {
+        $('#message_text').html('<p>Error!</p>');
+    } else {
+        $('#message_text').html('<p>'+msg+'</p>');
+    }
     return false;
 }
